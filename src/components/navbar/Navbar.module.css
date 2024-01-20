@@ -74,4 +74,11 @@
     display: flex;
     z-index: 1;
   }
+
+  .menuClose{
+    display: flex;
+    z-index: 1;
+  }
+  
 }
+
