@@ -1,6 +1,7 @@
 
-import styles from './App.module.css'
-import { Navbar } from './components/navbar/Navbar'
+import styles from './App.module.css';
+import { Hero } from './components/navbar/Hero/Hero';
+import { Navbar } from './components/navbar/Navbar';
 
 function App() {
 
@@ -8,8 +9,9 @@ function App() {
 
     <div className={styles.App}>
       <Navbar/>
+      <Hero/>
     </div>
-  )
+  );
 }
 
 export default App
